@@ -1,0 +1,38 @@
+-------------------------------------------------------------------------------
+Synthetic metagenome referenced in the GroopM paper:
+-------------------------------------------------------------------------------
+This folder contains a GroopM-based analysis of data produced for:
+
+Time series community genomics analysis reveals rapid shifts in bacterial
+species, strains, and phage during infant gut colonization. Itai Sharon, Michael
+J. Morowitz, Brian C. Thomas, Elizabeth K. Costello, David A. Relman and Jillian
+F. Banfield. Genome Res. 2013. 23: 111-120.
+
+This folder contains our contigs (produced using SPAdes + deafults) + GroopM bin
+assignments.
+
+-------------------------------------------------------------------------------
+    READS:
+-------------------------------------------------------------------------------
+The raw reads can be found at:
+
+http://www.ncbi.nlm.nih.gov/sra under accession number SRA052203.
+
+-------------------------------------------------------------------------------
+    CONTIGS:
+-------------------------------------------------------------------------------
+There are two contigs files.
+
+contigs_all.fa.gz - The output from SPAdes
+contigs_500.fa.gz - All contigs >= 500bp. <- Used in the binning
+
+-------------------------------------------------------------------------------
+    METADATA:
+-------------------------------------------------------------------------------
+Files:
+
+README - This FILE!
+groopm.bins.csv.gz - bin assignments made using GroopM for the sequences
+                     in contigs_500.fa
+
+-------------------------------------------------------------------------------

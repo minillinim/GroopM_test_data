@@ -1,0 +1,55 @@
+-------------------------------------------------------------------------------
+Synthetic metagenome referenced in the GroopM paper:
+-------------------------------------------------------------------------------
+
+This folder contains the synthetic metagenomes used in the validation of GroopM
+Files here are either reads, contigs and metadata. Reads were created by Ben
+Woodcroft. Reads are error-free modelled on Illumina paired end (500bp insert).
+The assembly was carried out using Velvet.
+
+-------------------------------------------------------------------------------
+    READS:
+-------------------------------------------------------------------------------
+There are three synthetic data sets.
+Each of the files contains reads in FASTA format with descriptors:
+
+>Sample{W}_Otu{X}_{Y}_{Z}
+
+where:
+
+    W is the sample number; 1,2 or 3
+    X is the otuID
+    Y is the read identifier
+    Z is the paired read identifier; 1 or 2
+
+Unfortunately we can't host these files on github directly, however they are available from
+our ftp site. Please note that we keep no logs of who access this site.
+
+You can download the test files from the following URLs
+
+ftp://archy.ace.uq.edu.au/GroopM_test_data/Sample_1.fa.gz
+ftp://archy.ace.uq.edu.au/GroopM_test_data/Sample_2.fa.gz
+ftp://archy.ace.uq.edu.au/GroopM_test_data/Sample_3.fa.gz
+
+-------------------------------------------------------------------------------
+    CONTIGS:
+-------------------------------------------------------------------------------
+There are two contigs files.
+
+contigs_all.fa.gz - The output from Velvet
+contigs_500.fa.gz - All contigs >= 500bp. <- Used in the binning
+
+-------------------------------------------------------------------------------
+    METADATA:
+-------------------------------------------------------------------------------
+Files:
+
+README - This FILE!
+Sample_otu_descriptions.tar.gz - Taxonomy for the references used in
+                                 the samples
+abundances.csv.gz - Relative abundances and read counts for each OTU in
+                    each sample
+groopm.bins.csv.gz - bin assignments made using GroopM for the sequences
+                     in contigs_500.fa
+
+-------------------------------------------------------------------------------

@@ -1,0 +1,30 @@
+-------------------------------------------------------------------------------
+
+This repository contains 3 data sets. It is pretty big so it may be worthwhile
+to just take the parts you need as you need them rather than clone the lot.
+
+-------------------------------------------------------------------------------
+Synthetic metagenome referenced in the GroopM paper:
+-------------------------------------------------------------------------------
+This folder contains the synthetic metagenomes used in the validation of GroopM
+It includes the raw reads used in our assembly + our contigs (produced using
+Velvet + defaults) + GroopM bin assignments AND MORE!
+
+See the README in this folder for details.
+
+-------------------------------------------------------------------------------
+Infant gut microbiome referenced in the GroopM paper:
+-------------------------------------------------------------------------------
+This folder contains a GroopM-based analysis of data produced for:
+
+Time series community genomics analysis reveals rapid shifts in bacterial
+species, strains, and phage during infant gut colonization. Itai Sharon, Michael
+J. Morowitz, Brian C. Thomas, Elizabeth K. Costello, David A. Relman and Jillian
+F. Banfield. Genome Res. 2013. 23: 111-120.
+
+This folder contains our contigs (produced using SPAdes + deafults) + GroopM bin
+assignments.
+
+See the README in this folder for details.
+
+-------------------------------------------------------------------------------
