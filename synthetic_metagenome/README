@@ -27,9 +27,9 @@ our ftp site. Please note that we keep no logs of who access this site.
 
 You can download the test files from the following URLs
 
-ftp://archy.ace.uq.edu.au/GroopM_test_data/Sample_1.fa.gz
-ftp://archy.ace.uq.edu.au/GroopM_test_data/Sample_2.fa.gz
-ftp://archy.ace.uq.edu.au/GroopM_test_data/Sample_3.fa.gz
+https://data.ace.uq.edu.au/public/GroopM_test_data/Sample_1.fa.gz
+https://data.ace.uq.edu.au/public/GroopM_test_data/Sample_2.fa.gz
+https://data.ace.uq.edu.au/public/GroopM_test_data/Sample_3.fa.gz
 
 -------------------------------------------------------------------------------
     CONTIGS:
