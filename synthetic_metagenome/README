@@ -27,9 +27,16 @@ our ftp site. Please note that we keep no logs of who access this site.
 
 You can download the test files from the following URLs
 
-https://data.ace.uq.edu.au/public/GroopM_test_data/Sample_1.fa.gz
-https://data.ace.uq.edu.au/public/GroopM_test_data/Sample_2.fa.gz
-https://data.ace.uq.edu.au/public/GroopM_test_data/Sample_3.fa.gz
+https://data.ace.uq.edu.au/public/GroopM_test_data/synthetic_metagenome/Sample_1.fa.gz
+https://data.ace.uq.edu.au/public/GroopM_test_data/synthetic_metagenome/Sample_2.fa.gz
+https://data.ace.uq.edu.au/public/GroopM_test_data/synthetic_metagenome/Sample_3.fa.gz
+
+-------------------------------------------------------------------------------
+    BAMS:
+-------------------------------------------------------------------------------
+The BAM files are named according to the sample that was mapped. They are available at:
+
+https://data.ace.uq.edu.au/public/GroopM_test_data/synthetic_metagenome/
 
 -------------------------------------------------------------------------------
     CONTIGS:
